@@ -1,5 +1,5 @@
 const { describe, beforeEach } = require('@jest/globals');
-const logger = require('../src/middlewares/logger');
+const logger = require('../src/middleware/logger');
 
 
 describe('logger middleware', () => {
