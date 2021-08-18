@@ -3,8 +3,8 @@
 const express = require('express');
 const app = express();
 
-const error404 = require('./handlers/404');
-const error500 = require('./handlers/500');
+const error404 = require('./error-handlers/404');
+const error500 = require('./error-handlers/500');
 
 const validator = require('./middleware/validator');
 const logger = require('./middleware/logger');
